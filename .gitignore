@@ -1,7 +1,6 @@
 .settings
 .DS_Store
 .metadata/
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
