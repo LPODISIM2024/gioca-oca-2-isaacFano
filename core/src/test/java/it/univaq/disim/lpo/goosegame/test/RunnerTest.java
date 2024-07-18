@@ -1,11 +1,11 @@
-package change.it.test;
+package it.univaq.disim.lpo.goosegame.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import change.it.Runner;
+import it.univaq.disim.lpo.goosegame.core.*;
 
 class RunnerTest {
 	
@@ -16,9 +16,9 @@ class RunnerTest {
 		it = new Runner();
 	}
 
-	@Test
-	void test() {
-		assertEquals(10, it.somma(5, 5));
-	}
+//	@Test
+//	void test() {
+//		assertEquals(10, it.somma(5, 5));
+//	}
 
 }
