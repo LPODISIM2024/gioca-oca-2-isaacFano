@@ -3,7 +3,7 @@ package it.univaq.disim.lpo.goosegame.core.gameService.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BoardServiceImpl{
+public class BoardServiceImpl {
     private final List<List<CellServiceImpl>> grid;
     private final int n;
     private final int m;

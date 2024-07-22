@@ -1,5 +1,13 @@
 package it.univaq.disim.lpo.goosegame.core.gameService;
 
-public class GiocoService {
+import it.univaq.disim.lpo.goosegame.core.game.*;
 
+public interface GiocoService{
+	public void gioca(Gioco gioco);
+	/*
+	 * Questo metodo inizializza la partita
+	 * 
+	 */
+	public Gioco inizializzaPartita() throws InizializzaPartitaException;
+	
 }
