@@ -1,4 +1,4 @@
-package change.it;
+package it.univaq.disim.lpo.goosegame.core;
 
 public class Runner {
 
